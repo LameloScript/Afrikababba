@@ -32,6 +32,7 @@ const DownloadCTA = () => {
             />
           </a>
         </div>
+        
       </div>
     );
   };
