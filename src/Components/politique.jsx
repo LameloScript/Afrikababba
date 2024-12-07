@@ -18,7 +18,7 @@ const PolitiquePage = () => {
           web et nos applications mobiles.
         </p>
         <br />
-        <h2>1. Responsable du Traitement des Données</h2>
+        <h2 className="font-bold">1. Responsable du Traitement des Données</h2>
         <p>
           La société InnovatelQ Sénégal, opérateur de la plateforme AfrikAbaba,
           agit en tant que responsable du traitement des données. Nous nous
@@ -30,7 +30,7 @@ const PolitiquePage = () => {
           <a href="mailto:infos@afrikababba.com">infos@afrikababba.com</a>.
         </p>
         <br />
-        <h2>2. Catégories de Données Collectées</h2>
+        <h2 className="font-bold">2. Catégories de Données Collectées</h2>
         <p>
           AfrikAbaba collecte des données personnelles dans plusieurs contextes
           :
@@ -92,7 +92,7 @@ const PolitiquePage = () => {
           </li>
         </ul>
         <br />
-        <h2>3. Finalités du Traitement des Données</h2>
+        <h2 className="font-bold">3. Finalités du Traitement des Données</h2>
         <p>
           Nous utilisons vos données personnelles dans les objectifs suivants :
         </p>
@@ -118,14 +118,78 @@ const PolitiquePage = () => {
             la fraude, et autres infractions financières.
           </li>
         </ul>
-        {/* Continuer avec la même structure propre et identation pour les autres sections */}
+        {/* Section 4 */}
         <br />
-        <h2>6. Sécurité des Données</h2>
+        <h2 className="font-bold">4. Base Légale du Traitement</h2>
+        <p>
+          Les traitements de vos données personnelles reposent sur les bases
+          légales suivantes :
+        </p>
+        <ul className="list-disc pl-5">
+          <li>
+            <strong>Exécution du contrat :</strong> pour traiter vos commandes
+            et fournir nos services.
+          </li>
+          <li>
+            <strong>Consentement :</strong> pour les activités marketing et la
+            personnalisation de contenu, lorsque vous avez explicitement donné
+            votre consentement.
+          </li>
+          <li>
+            <strong>Obligations légales :</strong> pour se conformer à nos
+            obligations légales et réglementaires, notamment en matière de lutte
+            contre la fraude.
+          </li>
+          <li>
+            <strong>Intérêt légitime :</strong> pour la prévention de la fraude,
+            la sécurité des données, et l'amélioration de nos services.
+          </li>
+        </ul>
+        <br />
+        {/* Section 5 */}
+        <h2 className="font-bold">5. Partage des Données</h2>
+        <p>
+          AfrikAbaba ne partage vos données personnelles qu'avec des tiers dans
+          les situations suivantes :
+        </p>
+        <ul className="list-disc pl-5">
+          <li>
+            <strong>Avec les vendeurs et prestataires logistiques :</strong> Vos
+            informations de commande et de livraison (nom, adresse, numéro de
+            téléphone) sont transmises aux vendeurs en Chine et aux prestataires
+            logistiques pour permettre la livraison de vos produits.
+          </li>
+          <li>
+            <strong>Avec les prestataires de services :</strong> Nous
+            collaborons avec des prestataires de services tiers pour gérer les
+            paiements, l'hébergement de nos plateformes, l'analyse de données,
+            la publicité, et d'autres services techniques nécessaires à la bonne
+            gestion de nos activités.
+          </li>
+          <li>
+            <strong>Dans le cadre de transactions commerciales :</strong> En cas
+            de fusion, acquisition, ou cession d'actifs, vos informations
+            pourraient être transférées à une entité tierce dans le cadre de
+            cette transaction. Nous vous informerons de tout changement
+            affectant vos données dans ce contexte.
+          </li>
+          <li>
+            <strong>Obligations légales :</strong> Nous pouvons divulguer vos
+            données personnelles aux autorités compétentes si cela est requis
+            par la loi, par exemple dans le cadre d'une enquête judiciaire ou
+            pour se conformer à une réglementation applicable.
+          </li>
+        </ul>
+        <br />
+
+        <br />
+        <h2 className="font-bold">6. Sécurité des Données</h2>
         <p>
           AfrikAbaba met en œuvre des mesures de sécurité de pointe pour
           protéger vos données contre les accès non autorisés, les pertes, ou
           les altérations. Cela inclut :
-        </p><br />
+        </p>
+        <br />
         <ul>
           <li>
             Chiffrement des informations sensibles lors des transactions de
@@ -138,8 +202,10 @@ const PolitiquePage = () => {
           <li>Surveillance des activités suspectes sur nos systèmes.</li>
         </ul>
         <br />
-        <h2>7. Durée de Conservation des Données</h2><br />
-        <p><br />
+        <h2 className="font-bold">7. Durée de Conservation des Données</h2>
+        <br />
+        <p>
+          <br />
           Vos données personnelles sont conservées aussi longtemps que
           nécessaire pour atteindre les objectifs décrits dans cette politique,
           et conformément aux obligations légales en matière de conservation des
@@ -147,7 +213,8 @@ const PolitiquePage = () => {
           locales et de nos obligations contractuelles.
         </p>
         <br />
-        <h2>8. Transferts Internationaux de Données</h2><br />
+        <h2 className="font-bold">8. Transferts Internationaux de Données</h2>
+        <br />
         <p>
           En tant que plateforme opérant à l'international, vos données peuvent
           être transférées en dehors de votre pays de résidence, notamment vers
@@ -157,7 +224,8 @@ const PolitiquePage = () => {
           clauses contractuelles types).
         </p>
         <br />
-        <h2>9. Vos Droits</h2><br />
+        <h2 className="font-bold">9. Vos Droits</h2>
+        <br />
         <p>
           En tant qu'utilisateur de notre plateforme, vous disposez des droits
           suivants sur vos données personnelles :
@@ -188,18 +256,21 @@ const PolitiquePage = () => {
             <strong>Limitation :</strong> vous pouvez restreindre le traitement
             de vos données dans certaines circonstances.
           </li>
-        </ul><br />
+        </ul>
+        <br />
         <p>
           Pour exercer vos droits, vous pouvez nous contacter à{" "}
           <a href="mailto:infos@afrikababba.com">infos@afrikababba.com</a>.
         </p>
         <br />
-        <h2>10. Cookies et Technologies de Suivi</h2><br />
+        <h2 className="font-bold">10. Cookies et Technologies de Suivi</h2>
+        <br />
         <p>
           Nous utilisons des cookies et des technologies similaires pour
           collecter des informations sur votre utilisation de notre plateforme
           afin de :
-        </p><br />
+        </p>
+        <br />
         <ul>
           <li>
             <strong>Améliorer la fonctionnalité du site :</strong> mémoriser vos
@@ -221,37 +292,46 @@ const PolitiquePage = () => {
           pourrait limiter certaines fonctionnalités de notre plateforme.
         </p>
         <br />
-        <h2>11. Enfants</h2><br />
+        <h2 className="font-bold">11. Enfants</h2>
+        <br />
         <p>
           Nos services ne sont pas destinés aux personnes de moins de 18 ans.
           Nous ne collectons pas sciemment de données personnelles auprès
           d'enfants. Si vous avez moins de 18 ans, veuillez ne pas utiliser nos
           services ni nous fournir de données personnelles.
-        </p><br />
+        </p>
+        <br />
 
-        <h2>12. Modifications de la Politique</h2><br />
-        <p><br />
+        <h2 className="font-bold">12. Modifications de la Politique</h2>
+        <br />
+        <p>
+          <br />
           Nous nous réservons le droit de modifier cette Politique de
           Confidentialité à tout moment, en fonction de l’évolution de nos
           services ou des réglementations en vigueur. Toute modification sera
           publiée sur notre site, et nous vous notifierons des changements
           majeurs par e-mail ou notification sur l’application.
-        </p><br />
+        </p>
+        <br />
 
-        <h2>13. Contact</h2><br />
+        <h2 className="font-bold">13. Contact</h2>
+        <br />
         <p>
           Si vous avez des questions ou des préoccupations concernant cette
           Politique de Confidentialité ou nos pratiques en matière de protection
           des données, veuillez nous contacter :
-        </p><br />
+        </p>
+        <br />
         <p>
           <strong>Par e-mail :</strong>{" "}
           <a href="mailto:infos@afrikababba.com">infos@afrikababba.com</a>
-        </p><br />
+        </p>
+        <br />
         <p>
           <strong>Par courrier :</strong> AfrikAbaba, Les almadies zone 4 villa
           259, Dakar, Sénégal.
-        </p><br />
+        </p>
+        <br />
         <p>
           Cette Politique de Confidentialité reflète notre engagement à protéger
           vos données personnelles tout en vous offrant un service transparent
@@ -262,7 +342,8 @@ const PolitiquePage = () => {
           nous n'avons pas pu résoudre votre préoccupation, vous avez le droit
           de déposer une plainte auprès de l'autorité de protection des données
           compétente dans votre pays de résidence.
-        </p><br />
+        </p>
+        <br />
       </div>
     </div>
   );

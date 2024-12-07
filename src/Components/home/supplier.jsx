@@ -1,48 +1,97 @@
 const SupplierSection = () => {
   return (
-    <section className="flex flex-col lg:flex-row  w-full bg-[#0F0F0F] text-white">
+    <section className="flex flex-col lg:flex-row w-full bg-[#0F0F0F] text-white ">
       {/* Colonne de gauche (Image) */}
-      <div className="w-full lg:w-1/2 h-2/3 p-4 lg:p-8 flex justify-center">
+      <div className="w-full lg:w-1/2 flex md:flex md:items-center md:justify-center">
         <img
           src="https://images.unsplash.com/photo-1610473068872-908afb1a7317?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" // Remplacez par l'URL de votre image
-          alt="Personne souriante"
-          className="w-full h-full object-cover rounded-lg"
+          alt="Écosystème AfrikAbaba"
+          className="w-full h-full object-cover"
         />
       </div>
 
       {/* Colonne de droite (Contenu texte) */}
-      <div className="w-full lg:w-1/2 h-full flex flex-col justify-center p-0 lg:p-12">
-        <div className="text-left px-6 lg:px-12 pb-12">
-          <h2 className="text-3xl font-normal leading-normal text-white sm:text-4xl xl:text-5xl pt-8 ">
-            Rejoignez notre réseau{" "} <br />
-            <span className="text-green-500 font-bold ">de transitaires</span>
+      <div className="w-full lg:w-1/2 h-full flex flex-col justify-center items-center p-6 lg:p-12">
+        <div className="text-left space-y-6">
+          <h2 className="text-2xl font-extrabold text-white sm:text-5xl">
+            {" "}
+            AfrikAbaba vous invite à{" "}
+            <strong className="block font-extrabold text-green-500">
+              intégrer un écosystème unique{" "}
+            </strong>{" "}
           </h2>
-          <p className="text-lg mb-6 text-gray-300 pt-12">
-            Afrikababba est une plateforme B2B conçue pour les transitaires
-            africains, leur permettant de se connecter efficacement avec des
-            clients à travers toute l'Afrique. Dotée d’un système de paiement
-            innovant, elle simplifie les transactions en permettant des
-            paiements via mobile money, sans nécessité de carte bancaire.{" "}
+          <p className="text-lg text-gray-300">
+            AfrikAbaba vous invite à intégrer un écosystème unique qui connecte
+            les transitaires de confiance à des fournisseurs et des clients en
+            Afrique. Faites partie d’une plateforme où la transparence,
+            l’efficacité, et la collaboration sont au cœur de chaque
+            interaction.
           </p>
-          <p className="text-lg mb-6 text-gray-300">
-            Rejoignez notre réseau de transitaires et bénéficiez de nombreux
-            avantages :
-          </p>
-          <ul className="list-disc pl-5 mb-6 text-gray-300">
+
+          <h3 className="text-2xl font-semibold text-white">
+            Pourquoi devenir transitaire sur AfrikAbaba ?
+          </h3>
+
+          <ul className="list-disc pl-5 text-gray-300 space-y-2">
             <li>
-              Accédez à des millions de clients potentiels cherchant des
-              services de logistique fiables.
+              <strong>Accès direct à une clientèle diversifiée :</strong>{" "}
+              Collaborez avec des fournisseurs internationaux et des acheteurs
+              locaux pour des livraisons efficaces.
             </li>
             <li>
-              Simplifiez vos processus grâce à nos solutions de gestion des
-              paiements et des transactions.
+              <strong>Gestion simplifiée des expéditions :</strong> Suivez et
+              gérez facilement vos commandes grâce à nos outils de suivi et de
+              gestion intégrés.
             </li>
             <li>
-              Bénéficiez d’un support personnalisé pour optimiser la gestion de
-              vos commandes et le suivi logistique.
+              <strong>Opportunités de croissance :</strong> Étendez vos
+              activités à de nouveaux marchés tout en bénéficiant de notre
+              assistance pour optimiser vos opérations.
+            </li>
+            <li>
+              <strong>Paiements sécurisés :</strong> Recevez des paiements
+              fiables pour vos services via notre solution HappyPay.
             </li>
           </ul>
-          
+
+          <h3 className="text-2xl font-semibold text-white">
+            Ce que nous offrons aux transitaires
+          </h3>
+
+          <ul className="list-disc pl-5 text-gray-300 space-y-2">
+            <li>
+              Une plateforme intuitive pour suivre les expéditions et gérer les
+              commandes.
+            </li>
+            <li>
+              Un réseau fiable de fournisseurs certifiés et d'acheteurs
+              vérifiés.
+            </li>
+            <li>
+              Un support dédié pour vous accompagner dans toutes vos démarches.
+            </li>
+          </ul>
+          <h3 className="text-2xl font-semibold text-white">
+            Rejoignez-nous dès aujourd'hui !
+          </h3>
+
+          <ol className="list-decimal pl-5 text-gray-300 space-y-2">
+            <li>Inscrivez-vous en quelques clics.</li>
+            <li>
+              Renseignez vos informations d’entreprise (pays de couverture,
+              modes de transport, tarifs).
+            </li>
+            <li>
+              Commencez à recevoir des demandes de livraison et développez votre
+              activité avec AfrikAbaba.
+            </li>
+          </ol>
+
+          <p className="text-lg text-gray-300">
+            Transformez votre activité en collaborant avec AfrikAbaba, votre
+            partenaire de confiance pour un commerce international fluide et
+            sans frontières.
+          </p>
         </div>
       </div>
     </section>

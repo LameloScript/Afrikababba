@@ -47,7 +47,9 @@ function Header() {
           <Link to="/how-it-works" className="hover:text-green-300">
             Comment ça marche
           </Link>
-          
+          <Link to="/comment-devenir-un-transitaire" className="hover:text-green-300">
+            Comment devenir un transitaire ?
+          </Link>
           <Link to="/about" className="hover:text-green-300">
             Qui sommes-nous ?
           </Link>

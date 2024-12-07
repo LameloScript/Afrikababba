@@ -48,6 +48,9 @@ const Footer = () => {
           <Link to="/Propriete-intectuelle" className="hover:text-green-300 hover:underline">
             Propriété intellectuelle
           </Link>
+          <Link to="/politique-de-suppression" className="hover:text-green-300 hover:underline">
+            Politique de suppression de compte
+          </Link>
         </nav>
 
         {/* Subscription Form */}

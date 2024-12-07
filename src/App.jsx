@@ -14,6 +14,7 @@ import CguPage from './Components/cgu';
 import SupplierForm from './pages/become-supplier';
 import TransitairePage from './pages/transitaire';
 import ScrollToTop from "./components/scrooltop";
+import PolitiqueSuppressionCompte from "./pages/suppression";
 import './App.css';
 
 function AppContent() {
@@ -59,6 +60,7 @@ function AppContent() {
           <Route path="/Propriete-intectuelle" element={<IntellectuelPage />} />
           <Route path="/conditions-générales-utilisation" element={<CguPage />} />
           <Route path="/comment-devenir-un-transitaire" element={<TransitairePage />} />
+          <Route path="/politique-de-suppression" element={<PolitiqueSuppressionCompte />} />
         </Routes>
       </main>
 
